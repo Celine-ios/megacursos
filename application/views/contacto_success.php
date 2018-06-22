@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.js"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <style>
 a {
 color: #fff;
@@ -61,24 +60,23 @@ li i {
  <br>
 <section class="x-grid" style="display: flex;align-items: center;flex-direction: column;text-align: center;margin-top: 2%;">
 	<div>
-		<h2>Consulta con Nosotros <br>
-			<small>Hazlo de manera rápida</small>
+		<h2 style="color: green;">Categoría creada<br>
+			<small>Operación efectuada exitosamente</small>
 		</h2>
-		<br>
-		<div>
-				<button class="button small" id="create-button">Crear</button>
-				<button class="button small" id="search-button">Buscar</button>
-			</div>
 	</div>
 	<br>
 	<div style="margin-top: 6%;display: flex;flex-direction: row;width: 60%;">
 		<div class="align-left">
 			<header>
 				<h4>Categoría</h4>
+				<div>
+					<a href="">Buscar</a>
+					<a href="">Crear</a>
+				</div>
 			</header>
 			<br>
 	<div class="grid-container">
-    <div class="grid-y grid-padding-y" id="form">
+    <div class="grid-y grid-padding-y">
       <div class="small-6 cell">
 			<?php echo form_open('contact'); ?>
         <label>Nombre
@@ -113,6 +111,11 @@ li i {
 			<br>
 	<div class="grid-container">
     <div class="grid-y grid-padding-y">
+    	<p>Nombre: <?php echo $nombre;?></p>
+    	<p>Categoría: <?php echo $categoria;?></p>
+    	<p>Horas: <?php echo $horas;?></p>
+    	<p>Detalles: <?php echo $detalles;?></p>
+    	<p>Precio: <?php echo $precio;?></p>
     </div>
   </div>
 	</div>		
@@ -142,5 +145,7 @@ li i {
 	</div>
 	</div>
 </footer>
+</body>
+</html>
 </body>
 </html>
