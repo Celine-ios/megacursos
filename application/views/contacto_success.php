@@ -69,10 +69,6 @@ li i {
 		<div class="align-left">
 			<header>
 				<h4>Categoría</h4>
-				<div>
-					<a href="">Buscar</a>
-					<a href="">Crear</a>
-				</div>
 			</header>
 			<br>
 	<div class="grid-container">

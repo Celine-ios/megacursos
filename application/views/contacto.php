@@ -64,11 +64,6 @@ li i {
 		<h2>Consulta con Nosotros <br>
 			<small>Hazlo de manera rápida</small>
 		</h2>
-		<br>
-		<div>
-				<button class="button small" id="create-button">Crear</button>
-				<button class="button small" id="search-button">Buscar</button>
-			</div>
 	</div>
 	<br>
 	<div style="margin-top: 6%;display: flex;flex-direction: row;width: 60%;">
